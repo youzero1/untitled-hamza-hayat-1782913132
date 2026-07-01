@@ -1,9 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Game from '@/components/Game';
 
 function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-pink-50 text-pink-600">
-      Loading Pink Tic Tac Toe...
+    <div className="min-h-screen bg-gradient-to-b from-pink-100 via-pink-50 to-white flex items-center justify-center p-6">
+      <Game />
     </div>
   );
 }
